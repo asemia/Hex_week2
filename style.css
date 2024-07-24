@@ -153,7 +153,7 @@ body {
 *::after {
 
     box-sizing: border-box;
-    /* outline: solid 1px; */
+   /* outline: solid 1px; */ 
 }
 
 a {
@@ -223,6 +223,13 @@ img {
 
 }
 
+.btn-dark {
+    color: white;
+    background: black;
+
+}
+
+
 /* page */
 .banner {
     background-color: black;
@@ -236,47 +243,93 @@ img {
 
 .intro {
     padding: 160px 0;
-background-image: url("img/background-img.png");
-background-repeat: no-repeat;
-background-size: cover;
-color:white;
+    background-image: url("img/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .intro-desc {
-    width:526px;
+    width: 526px;
 }
-.intro-desc h2{
+
+.intro-desc h2 {
     margin-bottom: 36px;
 }
+
 .intro-desc p {
     margin-bottom: 32px;
 }
 
-.about{
+.about {
     padding: 160px 0;
 }
 
 .about-list {
-    width:636px;
+    width: 636px;
     flex-wrap: wrap;
-    gap:24px;
+    gap: 24px;
 }
 
 .about-list li {
-    width:48%;
-    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.2);
+    width: 48%;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.2);
     border: 1px;
     border-color: #E3E3E3;
 }
 
 .about-desc {
-    width:526px;
+    width: 526px;
 }
 
 .contact {
 
     background: linear-gradient(#050014, #01021EE3);
+    padding: 96px 0;
+    color: #D1D1D1;
 }
+
+.contact-txt img {
+    width: 100px;
+}
+
+.social-list {
+    width: 562px;
+}
+
+.social-link {
+    border-radius: 40px;
+}
+
+.social-link:hover {
+
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    transition: 1s;
+}
+
+.project {
+    padding: 160px;
+}
+
+.project-title {
+    width: 746px;
+    margin-left: auto;
+}
+.project-right a {
+    margin-top: 60px;
+}
+
+
+.footer {
+background-color: black;
+color:#D1D1D1;
+text-align: center;
+}
+
+.footer-text {
+padding: 40px;
+}
+
 
 /* UTILS*/
 
@@ -291,6 +344,13 @@ color:white;
 
 .d-flex {
     display: flex;
+    align-items: flex-start;
+}
+
+
+
+.flex-column {
+    flex-direction: column;
 }
 
 .jcfe {
@@ -307,9 +367,19 @@ color:white;
     align-items: center;
 }
 
-.mr-6{
-margin-right: 24px;
+.mr-1 {
+    margin-right: 4px;
 }
+
+
+.mr-6 {
+    margin-right: 24px;
+}
+
 .mb-6 {
     margin-bottom: 24px;
+}
+
+.mb-7 {
+margin-bottom: 28px;
 }
